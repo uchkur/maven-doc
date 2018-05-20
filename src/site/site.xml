@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="Maven">
+    <bannerLeft>
+        <name>Maven</name>
+        <src>http://maven.apache.org/images/apache-maven-project.png</src>
+        <href>http://maven.apache.org/</href>
+    </bannerLeft>
+    <bannerRight>
+        <src>http://maven.apache.org/images/maven-small.gif</src>
+    </bannerRight>
+    <body>
+        <!-- http://maven.apache.org/doxia/doxia-sitetools/doxia-decoration-model/decoration.html
+        <item collapse=.. ref=.. name=.. href="README" img=.. position=.. alt=.. border=.. width=.. height=.. target=.. title=.. >
+        -->
+        <menu name="Проектная документация">
+            <item href="Readme.html" name="Руководство разработчика"/>
+        </menu>
+        <menu ref="reports" inherit="bottom" />
+    </body>
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>LATEST</version>
+    </skin>
+    <custom>
+    <fluidoSkin>
+        <topBarEnabled>true</topBarEnabled>
+        <sideBarEnabled>true</sideBarEnabled>
+    </fluidoSkin>
+</custom>
+</project>
